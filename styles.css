@@ -1,11 +1,8 @@
 body {
     width: 100%;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 5px;
+    margin: 0;
+    padding: 0;
 }
 .calc-body {
     display: flex;
@@ -24,11 +21,11 @@ button {
     height: 60px;
     border-style: solid;
     border-width: 1px;
-    border-radius: 2px;
+    border-radius: 2px; 
 }
 
 .equal {
-    width: 145px;
+    width: 70px;
 }
 .clear {
     width: 295px;
@@ -50,13 +47,26 @@ button {
     background-color: rgb(0 167 0);
     font-size: 30px;
 }
-#num:hover,#sign:hover,#clear:hover {
+#num:hover,#sign:hover,#clear:hover,#point:hover {
     color: black;
     background-color: white;
 }
 
-#sign,#clear {
+#sign,#clear,#point {
     color: white;
     background-color: #ffba00;
     font-size: 30px;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #2e372e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
