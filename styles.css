@@ -10,29 +10,39 @@ body {
 .calc-body {
     display: flex;
     flex-wrap: wrap;
-    width: 300px ;
-    height: 255px;
+    width: 306px ;
+    height: 320px;
     gap: 5px;
+    background-color: gray;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 button {
     width: 70px;
     height: 60px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
 }
 
-.clear {
+.equal {
     width: 145px;
+}
+.clear {
+    width: 295px;
 }
 
 .calc-display {
-    width: 300px;
+    width: 316px;
 }
 .calc-text {
-    width: 288px;
+    width: 306px;
     height: 45px;
     font-size: 30px;
     color: white;
-    background-color: black;
+    background-color: gray;
 }
 
 #num {
